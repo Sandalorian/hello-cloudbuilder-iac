@@ -1,0 +1,7 @@
+secretGenerator:
+- name: debug-log-pipeline
+  files:
+  - pipeline.conf=pipeline.conf
+
+generatorOptions:
+  disableNameSuffixHash: true
