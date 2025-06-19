@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: logstash-pipeline-debug_logs
+  name: logstash-pipeline-debug-logs
 type: Opaque
 stringData:
   pipelines.yml: |-
@@ -245,5 +245,5 @@ stringData:
             ssl_certificate_authorities => "${ECK_ES_SSL_CERTIFICATE_AUTHORITY}"
             data_stream => "true"
             data_stream_namespace => "synlig"
-          }
+          }  
         }
